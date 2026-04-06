@@ -127,17 +127,12 @@
       ]
     },
     {
-      "id": "5d448927-7d8e-49a7-a3bc-280938a05581",
-      "title": "Todos eran culpables",
-      "year": 1995,
-      "cover": "http://dummyimage.com/167x148.jpg/ff4444/ffffff",
-      "description": "Duis bibendum. Morbi non quam nec dui luctus rutrum. Nulla tellus.",
-      "duration": 1901,
-      "contentRating": "PG-13",
-      "source": "http://google.cn/at/turpis/donec/posuere/metus/vitae/ipsum.jsp",
-      "tags": [
-        "Action|Adventure|Drama"
-      ]
+      "id": "79398489418783798",
+      "nombre": "los pitufos",
+      "año": 1999,
+      "descripcion": "los pitufos son azules y pequeñas criaturas que viven en un bosque",
+      "duracion": 120
     }
-  ]
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
 }
