@@ -1,0 +1,143 @@
+{
+  "farmacia": [
+    {
+      "id": "36987-1439",
+      "first_name": "Nelco Laboratories, Inc.",
+      "last_name": "Sweet Corn",
+      "email": "333344135",
+      "gender": "5757 N DIXIE HWY ",
+      "ip_address": "1720690670",
+      "lenguaje": "OAKLAND PARK"
+    },
+    {
+      "id": "63629-2756",
+      "first_name": "Bryant Ranch Prepack",
+      "last_name": "CLOMIPRAMINE HYDROCHLORIDE",
+      "email": "500100863",
+      "gender": "PO BOX 863 ",
+      "ip_address": "1518617570",
+      "lenguaje": "AMES"
+    },
+    {
+      "id": "55154-9415",
+      "first_name": "Cardinal Health",
+      "apellido": "Acetaminofén y fosfato de codeína",
+      "correo electrónico": "283583011",
+      "género": "2600 N ELM ST ",
+      "dirección IP": "1427499045",
+      "idioma": "LUMBERTON"
+    },
+    {
+      "id": "63629-4841",
+      "nombre": "Bryant Ranch Prepack",
+      "apellido": "Fumarato de quetiapina",
+      "correo electrónico": "430049317",
+      "género": "173 MACDOUGALL LN ",
+      "dirección IP": "1073723276",
+      "idioma": "BLACKLICK"
+    },
+    {
+      "id": "33261-157",
+      "nombre": "Aidarex Pharmaceuticals LLC",
+      "apellido": "CLORHIDRATO DE METFORMINA",
+      "correo electrónico": "226025362",
+      "género": "125 PROSPERITY DR STE 800 ",
+      "dirección_ip": "1851877310",
+      "idioma": "WINCHESTER"
+    },
+    {
+      "id": "62217-200",
+      "nombre": "Fruit of the Earth, Inc.",
+      "apellido": "Fruit of the Earth Aloe Vera Cool Blue",
+      "correo electrónico": "117401602",
+      "género": "284 PULASKI RD ",
+      "dirección_ip": "1578593588",
+      "idioma": "GREENLAWN"
+    },
+    {
+      "id": "57664-003",
+      "nombre": "Caraco Pharmaceutical Laboratories, Ltd.",
+      "apellido": "Pramipexole",
+      "correo electrónico": "178224903",
+      "género": "100 NORTH ACADEMY AVE ",
+      "ip_address": "1639560550",
+      "lenguaje": "DANVILLE"
+    },
+    {
+      "id": "49349-765",
+      "first_name": "REMEDYREPACK INC.",
+      "last_name": "Valium",
+      "email": "992042803",
+      "gender": "800 WEST 5TH AVE ",
+      "ip_address": "1053551127",
+      "lenguaje": "SPOKANE"
+    },
+    {
+      "id": "50458-210",
+      "first_name": "Janssen Pharmaceuticals, Inc.",
+      "apellido": "AXERT",
+      "correo electrónico": "922703221",
+      "género": "39000 BOB HOPE DR ",
+      "dirección IP": "1801291539",
+      "idioma": "RANCHO MIRAGE"
+    },
+    {
+      "id": "0527-1330",
+      "nombre": "Lannett Company, Inc.",
+      "apellido": "Baclofen",
+      "correo electrónico": "677351602",
+      "género": "220 W 2ND ST ",
+      "dirección IP": "1831247790",
+      "idioma": "GOODLAND"
+    },
+    {
+      "id": "0a42",
+      "ID": "2992728979882938",
+      "año": 1900,
+      "titulo": "aguas frescas",
+      "cover": "pollosasados4000",
+      "descripcion": "dias de ventas de pollos",
+      "duracion": 210
+    },
+    {
+      "id": "f240",
+      "ID": "2992728979882938",
+      "año": 1900,
+      "titulo": "aguas frescas",
+      "cover": "pollosasados4000",
+      "descripcion": "dias de ventas de pollos",
+      "duracion": 210
+    },
+    {
+      "id": "990d"
+    },
+    {
+      "id": "ca29"
+    },
+    {
+      "id": "ea05"
+    },
+    {
+      "id": "8734733984",
+      "first_name": "farmaceuticos y medicinas",
+      "last_name": "mieltertos",
+      "email": "elrubius@gmail.com",
+      "gender": "masc ",
+      "ip_address": "repartidor de medicinas",
+      "lenguaje": "menoxidil"
+    },
+    {
+      "id": "775b"
+    },
+    {
+      "id": "5745923749",
+      "first_name": "laboratorio biológico medicinal",
+      "last_name": "seres unicelulares",
+      "correo electrónico": "93849379889",
+      "género": "más ",
+      "dirección_ip": "849275848849492",
+      "lenguaje": "HEROINA como medicina?"
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
+}
