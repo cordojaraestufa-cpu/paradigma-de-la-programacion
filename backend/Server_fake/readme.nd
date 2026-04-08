@@ -10,3 +10,37 @@ en donde parece
 ¿que es SOAP cuales son las diferencias con REST?
 
 ¿que es GraphQL cuales son las diferencias coon rest?
+
+
+respuestas
+
+1. ¿Dónde aparece?
+Aparece en el encabezado de respuesta (response header) de la petición HTTP, indicando que el objeto fue creado y, a menudo, incluyendo un campo Location con la URL del nuevo recurso. 
+
+2. ¿Cómo verificar la actualización de datos por terminal?
+Utiliza curl con la bandera -v (verbose) para ver los encabezados y -i para incluir el cuerpo de la respuesta:
+bash
+curl -X POST -H "Content-Type: application/json" -d '{"nombre": "nuevo"}' -i http://api.ejemplo.com/recurso
+Verificación: Si recibes HTTP/1.1 201 Created y el cuerpo JSON del recurso creado, la acción fue exitosa. 
+
+3. Estados HTTP comunes
+200 OK: Petición exitosa estándar.
+201 Created: Recurso creado exitosamente.
+204 No Content: Petición exitosa, pero la respuesta no devuelve cuerpo (común en DELETE/PUT).
+400 Bad Request: Error del cliente, la sintaxis es incorrecta.
+401 Unauthorized: Requiere au
+404 Not Found: Recurso no encontrado.
+500 Internal Server Error: Error genérico del servidor. 
+
+
+4. ¿Cuándo hacer una petición tipo PATCH?
+Utiliza PATCH cuando necesites realizar una actualización parcial de un recurso, es decir, cambiar solo uno o algunos campos sin necesidad de enviar todo el objeto de nuevo, a diferencia de PUT que reemplaza el recurso completo. 
+
+5. ¿Qué es SOAP y sus diferencias con REST?
+SOAP (Simple Object Access Protocol) es un protocolo estricto basado en XML, con reglas rígidas de seguridad y transacciones, ideal para operaciones bancarias. 
+
+Diferencia: REST es más flexible (JSON/XML), rápido y no tiene estado; SOAP es más pesado y enfocado en funciones. 
+
+6. ¿Qué es GraphQL y sus diferencias con REST?
+GraphQL es un lenguaje de consulta para APIs que permite al cliente solicitar exactamente los datos que necesita, ni más ni menos, en una sola petición. 
+Diferencia: REST suele requerir múltiples endpoints para diferentes datos y puede traer información de más (overfetching). GraphQL utiliza un solo endpoint y optimiza la carga de datos. 
